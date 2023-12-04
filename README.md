@@ -1,0 +1,1 @@
+# getwired.app PoW relay

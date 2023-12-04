@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  getwired:
+    restart: unless-stopped
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3334:3334
+    volumes:
+      - ./db:/app/db
